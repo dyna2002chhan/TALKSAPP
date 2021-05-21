@@ -5,6 +5,7 @@
     justify-content: center;
     
   }
+  
   .Login_form{
     width: 380px;
     background: #fff;
@@ -131,7 +132,7 @@
     
   }
   .chat_box .user_bar{
-    background: rgb(243, 95, 95);
+    background: rgb(243, 155, 155);
     font-weight: bold;
     line-height: 50px;
     font-size: 10px;
@@ -141,11 +142,9 @@
     margin-top: 51%;
     
   }
-
-
   /* user bar................................................*/
   .make_change{
-    margin-left: 45%;
+    margin-left: 20%;
     position: relative;
   }
   .make_change input{
@@ -160,20 +159,19 @@
   color: black;
   top: 30%;
   font-size: 30px;
-}.make_change #italic, #bold, #send{
+}.make_change #italic, #bold, #send, #camera{
   color: #000;
 }
-#send{
+#camera{
+  margin-right:15px;
+}#send{
   margin-left: 10px;
   position: absolute;
   margin-top: 16px;
-}
- #italic{
+}#italic{
   margin-top: 16px;
-    margin-right:15px;
-
-}
-#bold{
+  margin-right:15px;
+}#bold{
   margin-top: 16px;
   margin-right:15px;
 }
