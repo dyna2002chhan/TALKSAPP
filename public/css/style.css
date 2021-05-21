@@ -3,9 +3,7 @@
     background-color: grey;
     display: flex;
     justify-content: center;
-    
   }
-  
   .Login_form{
     width: 380px;
     background: #fff;
@@ -96,12 +94,10 @@
     font-weight: bold;
     cursor: pointer;
     background:rgb(243, 95, 95);
-   
   }
   form .field input[type="submit"]:active{
     transform: scale(0.90);
   }
-  
   form .forgot_pass a{
     color: #4158d0;
     text-decoration: none;
@@ -114,12 +110,13 @@
   }
   
   /* chat box ............................................*/
+
   .chat_box{
     width: 60%;
     background: #fff;
     border-radius: 15px;
     box-shadow: 0px 5px 10px rgb(240, 133, 133);
-
+    /* display: none; */
   }
   .chat_box .replier_bar{
     background: rgb(243, 95, 95);
@@ -128,8 +125,7 @@
     font-size: 10px;
     color: #fff;
     border-radius: 15px 15px 0 0;
-    padding-top: 2px;
-    
+    padding-top:10px;
   }
   .chat_box .user_bar{
     background: rgb(243, 155, 155);
@@ -139,39 +135,39 @@
     color: #fff;
     border-radius: 0 0 15px 15px;
     padding-bottom: 4px;
-    margin-top: 51%;
-    
+    margin-top: 52%;
   }
+
   /* user bar................................................*/
+
   .make_change{
     margin-left: 20%;
     position: relative;
   }
   .make_change input{
   outline: none; border: none;
-  border-radius: 5px; padding: 6px ; margin-top: 13px;
-  height: 4vh; width:70%;
-  
+  border-radius: 5px; padding: 5px ; margin-bottom: 13px;
+  height: 4vh; width:60%;
 }
 .make_change #mic{
   position:absolute;
-  left: 80%;
+  left: 82%;
   color: black;
-  top: 30%;
+  top: 33%;
   font-size: 30px;
 }.make_change #italic, #bold, #send, #camera{
   color: #000;
 }
-#camera{
-  margin-right:15px;
-}#send{
-  margin-left: 10px;
+#send{
+  margin-left: 8px;
   position: absolute;
-  margin-top: 16px;
-}#italic{
-  margin-top: 16px;
-  margin-right:15px;
-}#bold{
+  margin-top: 22px;
+}#italic, #bold, #camera{
   margin-top: 16px;
   margin-right:15px;
+  background-color: white;
+  padding: 5px; border-radius: 5px;
+}
+#italic:active,#send:active,#bold:active,#camera:active,#text_entered:active{
+  transform: scale(0.90);
 }
