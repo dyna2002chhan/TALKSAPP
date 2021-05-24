@@ -10,7 +10,6 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.static('public'));
 
 
-
 app.get('/user',(req,res)=>{
     res.send("Running....");
 });

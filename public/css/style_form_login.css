@@ -35,6 +35,24 @@ body{
     margin-top: 20px;
     position: relative;
 }
+.Login_form form button{
+    background-color: rgb(243, 95, 95);
+    width: 90%; height: 6.5vh; outline: none; border: none;
+    border-radius: 15px; 
+    margin-left: 30px; font-weight: bold; font-size: 17px; color: white;
+}.to_message:active, .login:active{
+    transform: scale(0.90);
+}
+.Login_form form .field a{
+    background-color: rgb(92, 95, 245);
+    width: 90%; height: 6.5vh; outline: none; border: none;
+    border-radius: 15px; 
+    margin-left: 30px; font-weight: bold; font-size: 17px; color: white;
+    text-align: center;
+}
+/* .login_form form button:active{
+    transform: scale(0.90);
+} */
 .Login_form form .field input{
     height: 100%;
     width: 100%;

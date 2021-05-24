@@ -20,6 +20,9 @@ send.addEventListener('click',(event)=>{
             p.style.float = "right";
             p.style.borderRadius = "15px";
         }
+    const username = document.querySelector('.username');
+    const user_name = document.querySelector('.user_name');
+    username.textContent = user_name;
 })
 
 
