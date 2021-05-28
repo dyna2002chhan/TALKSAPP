@@ -103,9 +103,9 @@ form .content label{
     user-select: none;
     padding-left: 5px;
 }
-.login{
+/* .login{
     display: none;
-}
+} */
 form .forgot_pass a{
     color: #4158d0;
     text-decoration: none;
